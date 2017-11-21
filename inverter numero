@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int invet(int n){
+    if((n /10)!=0)
+        return (n%10)*casa(n)+invet(n/10);
+    else 
+        return 1;
+}
+
+int casa(int n){
+    if((n/10)>0)
+        return 10*casa(n/10);
+    else 
+        return 1;
+}
+
+int main(){
+    int num;    
+    scanf("%d",&num);
+    
+    printf("%d\n",invet(num));
+    
+}
