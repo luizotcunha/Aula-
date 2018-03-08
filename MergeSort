@@ -25,14 +25,24 @@ int main(){
     printf("Valor  %i : %i" , i+1,  v[i]);
     printf("\n");
   }
+
+  clock_t inicioc,fimc;
   
+  inicioc = clock();
+
   mergesort(v, tamVet);
+
+  fimc = clock();
+  
+  
 
   for (int i = 0; i < tamVet; i++)
   {
     printf("Valor  %i ordenado : %i" , i+1,  v[i]);
     printf("\n");
   }
+
+  printf("Tempo de execução %ld ms\n",(fimc - inicioc));
 
   return 0; 
 }
