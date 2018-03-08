@@ -1,5 +1,5 @@
 //Codigo construido por Luiz Cunha
-// Repositorio oficial: https://github.com/luizotcunha/Aula-/blob/master/MergeSort_Desordenado
+// Repositorio oficial: https://github.com/luizotcunha/Aula-/blob/master/merge_desordenado.c
 
 // Para calcular apenas o tempo de execução do codigo de vetores muito grade, deve-se tirar os printf 
 
