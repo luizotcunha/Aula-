@@ -1,5 +1,5 @@
 //Codigo construido por Luiz Cunha
-// Repositorio oficial: https://github.com/luizotcunha/Aula-/blob/master/MergeSort_decrescente
+// Repositorio oficial: https://github.com/luizotcunha/Aula-/blob/master/merge_decrescente.c
 
 // Para calcular apenas o tempo de execução do codigo de vetores muito grade, deve-se tirar os printf 
 
