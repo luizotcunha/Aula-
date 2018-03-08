@@ -1,5 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+//Codigo construido por Luiz Cunha
+// Repositorio oficial: https://github.com/luizotcunha/Aula-/blob/master/MergeSort
+
+#include "stdio.h"
+#include "stdlib.h"
 #include "time.h"
 
 void mergesort(int *v, int n);
@@ -19,12 +22,12 @@ int main(){
   
   for (int i = 0; i < tamVet; i++)
   {
-    
     v[i] = rand() % tamVet + 1;
 
     printf("Valor  %i : %i" , i+1,  v[i]);
     printf("\n");
   }
+
 
   clock_t inicioc,fimc;
   
@@ -41,9 +44,7 @@ int main(){
     printf("Valor  %i ordenado : %i" , i+1,  v[i]);
     printf("\n");
   }
-
   printf("\n\nTempo de execução %ld ms\n",(fimc - inicioc));
-
   return 0; 
 }
 
