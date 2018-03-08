@@ -28,7 +28,8 @@ int main(){
   {
     v[i] = tamVet_aux;
     tamVet_aux--;
-    
+    printf("Valor  %i : %i" , i+1,  v[i]);
+    printf("\n");
   }
 
 
@@ -40,7 +41,14 @@ int main(){
 
   fimc = clock();
   
-    printf("\n\nTempo de execução %ld ms\n",(fimc - inicioc));
+  
+
+  for (int i = 0; i < tamVet; i++)
+  {
+    printf("Valor  %i ordenado : %i" , i+1,  v[i]);
+    printf("\n");
+  }
+  printf("\n\nTempo de execução %ld ms\n",(fimc - inicioc));
   return 0; 
 }
 
