@@ -42,7 +42,7 @@ int main(){
     printf("\n");
   }
 
-  printf("Tempo de execução %ld ms\n",(fimc - inicioc));
+  printf("\n\nTempo de execução %ld ms\n",(fimc - inicioc));
 
   return 0; 
 }
